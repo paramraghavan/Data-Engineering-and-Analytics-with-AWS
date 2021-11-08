@@ -6,7 +6,7 @@ When architecting our system we should separate *Compute* and *Storage*. We shou
 - the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cses used csv as that was the consumers requirement.
 - The data should not be replicated but shared across team, such that the same data is used by marketing team for sql query and s used by data scientist to run their model
 
-
+## Lifecycle of data
 
 
 

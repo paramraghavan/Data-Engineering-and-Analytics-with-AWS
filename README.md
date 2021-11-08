@@ -10,3 +10,7 @@ When architecting our system we should separate *Compute* and *Storage*. We shou
 
 
 
+References:
+- http://diagramo.com/editor/editor.php
+
+

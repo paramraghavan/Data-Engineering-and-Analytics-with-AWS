@@ -33,6 +33,9 @@ When architecting our system we should separate *Compute* and *Storage*. We shou
 - Amazon EMR - running spark sql to access glue datalog on to of s3
 
 ## Visualize
+- Quicksight for reporting purposes. Quicksight has in memory database called spice , this provides a persisten store for calculated data, ths is specially useful for reports that do not chnage very frequentlya nd provide good response to the users
+- Reporting tools like microstratergy, tableau can use the Redshift spectrum tablesand view for reporting 
+- D3js, pyflask and  redshift spectrum tables - accessed via redshift driver
 
 
 

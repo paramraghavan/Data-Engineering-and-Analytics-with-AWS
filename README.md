@@ -1,4 +1,4 @@
-# Data-Engineering-and-Analysis-with-AWS
+# Data-Engineering-and-Analytics-with-AWS
 This is based on my experience working with AWS, resources available in AWS and my curious web searches.
 
 ## Architecting on AWS

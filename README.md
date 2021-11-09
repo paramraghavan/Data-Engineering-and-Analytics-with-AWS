@@ -24,7 +24,17 @@ When architecting our system we should separate *Compute* and *Storage*. We shou
 - Custom code - for example Java or python code which moves data from on premise to S3
 
 ## Storage
-- S3
+- S3, this is used for storage and data here should be not be replicated but should be shared across accounts u
+
+## Analyze
+- Redshift/Resshift spectrum to read unstructured data in S3
+- Use Athena for sql analysis of data on S3
+- We can use the AWs Glue to create data catalog over the S3 files, which can be alter accesed via sql, for example we can use the spark sql serverless container to access glue mappings/data catalog to perform sql
+- Amazon EMR - running spark sql to access glue datalog on to of s3
+
+## Visualize
+
+
 
 References:
 - http://diagramo.com/editor/editor.php

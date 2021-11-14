@@ -30,6 +30,7 @@ Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data 
 You can easily create a Firehose delivery stream from the AWS Management Console, configure it with a few clicks, and start ingesting streaming data from hundreds of thousands of data sources to your specified destinations. You can also configure your data streams to automatically convert the incoming data to open and standards based formats like Apache Parquet and Apache ORC before the data is delivered.
 
 With Amazon Kinesis Data Firehose, there is no minimum fee or setup cost. You pay for the amount of data that you transmit through the service, if applicable, for converting data formats, and for Amazon VPC delivery and data transfer.
+Each record can be as large as 1000Kb
 
 ![image](https://user-images.githubusercontent.com/52529498/141684424-1a57aa1e-0963-4f74-91d2-cd0052759aed.png)
 
@@ -41,6 +42,7 @@ With Amazon Kinesis Data Firehose, there is no minimum fee or setup cost. You pa
 ## Data tranformation with firehose, lambda transforms the data
 ![image](https://user-images.githubusercontent.com/52529498/141689188-a9772d79-47d9-46a7-a328-314b4a1207f2.png)
 
+![image](https://user-images.githubusercontent.com/52529498/141689418-d584104a-5114-4159-8b82-f100140e80a9.png)
 
 
 

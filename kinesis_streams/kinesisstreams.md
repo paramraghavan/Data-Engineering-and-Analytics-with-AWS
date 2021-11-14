@@ -45,6 +45,32 @@ Each record can be as large as 1000Kb
 ![image](https://user-images.githubusercontent.com/52529498/141689418-d584104a-5114-4159-8b82-f100140e80a9.png)
 
 
+# Kinesis Analytics
+Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information
+
+Amazon Kinesis Analytics processes and analyzes streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Kinesis Analytics enables you to query streaming data or build entire streaming applications with SQL. 
+
+The results can be used to create insights and visualizations so that you can respond to your business and customer needs promptly. Notifications and alerts can also be configured. This service supports ingesting data from Amazon Kinesis Streams and Amazon Kinesis Firehose streaming sources.
+
+To get started with Kinesis Analytics, you'll first need to log in to the AWS Management Console and select Kinesis Stream or Kinesis Firehose delivery stream as an input. Amazon Kinesis Analytics continuously polls the streaming source for new data and ingests it using in‑application streams. Next, write your SQL queries to process the streaming data using your Kinesis Analytics SQL editor and built‑in templates, and test it with live streaming data.
+Kinesis Analytics is able to send processed results to Amazon Simple Storage Service, or S3, Amazon Redshift, Amazon Elasticsearch Service, or your own custom destination for further analysis
+
+![image](https://user-images.githubusercontent.com/52529498/141690095-9561bf76-3c14-4aa3-a513-7d0e31591c79.png)
+
+![image](https://user-images.githubusercontent.com/52529498/141690191-f65a22aa-1a4f-4122-9a75-e9efbe077274.png)
+
+## Realtime log analytics
+![image](https://user-images.githubusercontent.com/52529498/141690448-2c2a159b-2f34-4070-9ca3-44eeba1a753e.png)
+
+## IOT use case
+![image](https://user-images.githubusercontent.com/52529498/141690547-e19efcba-6c09-400b-bea3-e5ad55843820.png)
+
+ You can use Kinesis Analytics to transform, aggregate, and filter streaming data from IoT devices such as consumer appliances, embedded sensors, and TV set top boxes. You could then use the data to send real‑time alerts when a sensor exceeds certain operating thresholds. Kinesis Streams collects and streams the data to Kinesis Analytics in real time, which then filters aggregates, and enriches the data. Processed results are then transmitted to Amazon DynamoDB, which in turn powers customer dashboards and sends alerts in real time
+
+
+## Realtime log analytics
+![Uploading image.png…]()
+
 
 
 ref: https://aws.amazon.com/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc

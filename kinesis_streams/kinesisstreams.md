@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/52529498/140964922-fb652512-8700-437c-9d69-27cd7b461a45.png)
 
 - Streams are managed service automatially durable and resilient.
-- Kinesis streams has producer library and consumer library. 
-- Read from producer at 1 mb/s and write to consumer at 2 mb/s.
+- Kinesis streams(KSs) has producer library and consumer library. 
+- shards read from producer at 1 mb/s and write to consumer at 2 mb/s. Shard is the basic unit of work in KSs, you can increase the number of shards if the producer rate increases or vice versa.
 
 

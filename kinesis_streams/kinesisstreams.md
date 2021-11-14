@@ -25,13 +25,23 @@
 
 
 # Kinesis Firehose
-Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics services. It can capture, transform, and deliver streaming data to Amazon S3, Amazon Redshift, etc.  It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration. It can also batch, compress, transform, and encrypt your data streams before loading, minimizing the amount of storage used and increasing security.
+Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics services. It can capture, transform, and deliver streaming data to Amazon S3, Amazon Redshift, etc.  <ul>It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration.</ul> It can also batch, compress, transform, and encrypt your data streams before loading, minimizing the amount of storage used and increasing security.
 
 You can easily create a Firehose delivery stream from the AWS Management Console, configure it with a few clicks, and start ingesting streaming data from hundreds of thousands of data sources to your specified destinations. You can also configure your data streams to automatically convert the incoming data to open and standards based formats like Apache Parquet and Apache ORC before the data is delivered.
 
 With Amazon Kinesis Data Firehose, there is no minimum fee or setup cost. You pay for the amount of data that you transmit through the service, if applicable, for converting data formats, and for Amazon VPC delivery and data transfer.
 
 ![image](https://user-images.githubusercontent.com/52529498/141684424-1a57aa1e-0963-4f74-91d2-cd0052759aed.png)
+
+![image](https://user-images.githubusercontent.com/52529498/141689084-2a75d375-4392-46d0-b768-8003218d1df1.png)
+
+## How does it work
+![image](https://user-images.githubusercontent.com/52529498/141689117-11fd8f91-816d-466e-8acf-97a7b85d7054.png)
+
+## Data tranformation with firehose, lambda transforms the data
+![image](https://user-images.githubusercontent.com/52529498/141689188-a9772d79-47d9-46a7-a328-314b4a1207f2.png)
+
+
 
 
 

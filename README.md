@@ -7,6 +7,9 @@ When architecting our system we should separate *Compute* and *Storage*. We shou
 - The data should not be replicated but shared across team, such that the same data is used by marketing team for sql query and s used by data scientist to run their model
 
 ## Lifecycle of data
+
+![image](https://user-images.githubusercontent.com/52529498/141691482-c8150b36-41f0-4469-8950-c57a3a0af909.png)
+
 ![image](https://user-images.githubusercontent.com/52529498/140820594-4f8775e2-7506-4b1f-a98e-c3e547dc9e73.png)
 
 ## Data Source

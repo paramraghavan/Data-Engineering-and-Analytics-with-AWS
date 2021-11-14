@@ -1,4 +1,5 @@
-### Kinesis Streams is used to :
+# Kinesis streams
+## Kinesis Streams is used to :
 ![image](https://user-images.githubusercontent.com/52529498/140963179-d2cbd175-ef20-45ba-b558-a533abc3d5e6.png)
 
 ### Kinesis stream reads from : 
@@ -18,9 +19,23 @@
     - ![image](https://user-images.githubusercontent.com/52529498/141681469-6fa299bd-e3b2-4435-8211-68fb86c01853.png)
 
 
-# Kinesis typical use case see diagram below:
+## Kinesis typical use case see diagram below:
 -  all the use cases have in common is large number for small messages - single log message or single txn, from many sources ingested and stored and made available to many apps. Messages processed in real time, processed reliably, secure with server side encrytion and scalable. 
 - ![image](https://user-images.githubusercontent.com/52529498/141680350-e660a089-e61c-4915-ad72-5765ad273ec2.png)
+
+
+# Kinesis Firehose
+Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics services. It can capture, transform, and deliver streaming data to Amazon S3, Amazon Redshift, etc.  It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration. It can also batch, compress, transform, and encrypt your data streams before loading, minimizing the amount of storage used and increasing security.
+
+You can easily create a Firehose delivery stream from the AWS Management Console, configure it with a few clicks, and start ingesting streaming data from hundreds of thousands of data sources to your specified destinations. You can also configure your data streams to automatically convert the incoming data to open and standards based formats like Apache Parquet and Apache ORC before the data is delivered.
+
+With Amazon Kinesis Data Firehose, there is no minimum fee or setup cost. You pay for the amount of data that you transmit through the service, if applicable, for converting data formats, and for Amazon VPC delivery and data transfer.
+
+![image](https://user-images.githubusercontent.com/52529498/141684424-1a57aa1e-0963-4f74-91d2-cd0052759aed.png)
+
+
+
+ref: https://aws.amazon.com/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc
 
   
 

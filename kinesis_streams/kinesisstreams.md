@@ -15,9 +15,11 @@
   - consume in parallel, Consumer A could be processing for logic A and Consumer B may be creating timeseries dataset
     -  ![image](https://user-images.githubusercontent.com/52529498/141673230-6ba341dd-9b7c-4300-8389-94cc9947d748.png)
   - decouple collection and processing
+    - ![image](https://user-images.githubusercontent.com/52529498/141681469-6fa299bd-e3b2-4435-8211-68fb86c01853.png)
+
 
 # Kinesis typical use case see diagram below:
--  all the use cases have in common is large number for small messages - single log message or single txn, from many sources ingested and stored and made available to many apps
+-  all the use cases have in common is large number for small messages - single log message or single txn, from many sources ingested and stored and made available to many apps. Messages processed in real time, processed reliably, secure with server side encrytion and scalable. 
 - ![image](https://user-images.githubusercontent.com/52529498/141680350-e660a089-e61c-4915-ad72-5765ad273ec2.png)
 
   

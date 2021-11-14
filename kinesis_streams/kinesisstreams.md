@@ -11,6 +11,8 @@
 - Kinesis streams can be secured via server side encryption.Streams can be scled up or down and we only pay for shards allocated per hour
 - Kinesis streams
   - preserve client ordering
+  ![image](https://user-images.githubusercontent.com/52529498/141669323-a601dfc3-6282-4895-95d4-ed156295616e.png)
+
   - consume in parallel
   - decouple collection and processing
   

@@ -67,6 +67,7 @@ Kinesis Analytics is able to send processed results to Amazon Simple Storage Ser
 
  You can use Kinesis Analytics to transform, aggregate, and filter streaming data from IoT devices such as consumer appliances, embedded sensors, and TV set top boxes. You could then use the data to send real‑time alerts when a sensor exceeds certain operating thresholds. Kinesis Streams collects and streams the data to Kinesis Analytics in real time, which then filters aggregates, and enriches the data. Processed results are then transmitted to Amazon DynamoDB, which in turn powers customer dashboards and sends alerts in real time
 
+Kinesis Analytics enables you to quickly author SQL code that continuously reads, processes, and stores data in real time. It can be used to generate time‑series analytics and calculate metrics over time windows and then stream values to a destination. Kinesis Analytics can also send aggregated and processed streaming data results downstream to feed real‑time dashboards.
 
 ref: https://aws.amazon.com/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc
 

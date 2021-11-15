@@ -11,3 +11,10 @@ amount of time. Semistructured data is often stored in a series of key-value pai
 This data often takes the form of files or objects, has no single structure, and represents everything else that a business collects and generates. This data is often considered
 untouchable because it does not meet conventional norms. It requires tagging and cataloging in order to be analyzed, and this prevents many businesses from using it in their data
 analysis solutions. Examples include images, email messages, text files, social media content, text messages, and videos. Unstructured data is not structured in a consistent way. Some data may have structure similar to semi-structured data but others may only contain metadata.
+
+![image](https://user-images.githubusercontent.com/52529498/141729500-b1b91c1b-dee5-49b6-aeb4-455c04c89d90.png)
+
+ref: https://www.datamation.com/big-data/structured-vs-unstructured-data.html
+
+## Datasets from everyday life
+![image](https://user-images.githubusercontent.com/52529498/141729744-a1a748fa-3c4a-4793-9834-8ffa72d0f500.png)

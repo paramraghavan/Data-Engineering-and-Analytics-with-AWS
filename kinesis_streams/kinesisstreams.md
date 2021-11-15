@@ -6,8 +6,6 @@
 means processing data in a stream—in other words, processing data that’s generated continuously, in small datasets (measured in kilobytes). You would use stream processing when you need real-time feedback or continuous insights. This kind of processing is performed on datasets like IoT sensor data, e-commerce purchases, in-game player activity, clickstreams, or information from social networks.
 Many organizations use both types of processing, stream and batch, on the exact same dataset. Stream processing is used to get initial insights and real-time feedback, while batch processing is used to get deep insights from complex analytics. For example, credit card transactions. Have you ever received in text just moments after swiping your card? This is a streaming data fraud prevention alert. This is a stream process that happens in near-real time.
 
-
-
 Now another process going on regularly using the same data would be the credit card company processing the days customer fraud prevention alert trends. Same data, two completely different business being met, two different velocities.
 
 

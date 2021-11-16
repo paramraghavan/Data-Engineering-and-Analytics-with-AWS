@@ -18,3 +18,72 @@ ref: https://www.datamation.com/big-data/structured-vs-unstructured-data.html
 
 ## Datasets from everyday life
 ![image](https://user-images.githubusercontent.com/52529498/141729744-a1a748fa-3c4a-4793-9834-8ffa72d0f500.png)
+
+
+## discuss semistructured and unstructured data stores
+Semistructured and unstructured data can be stored in NoSQL databases, which is very common for semistructured data. These types of data stores can also be stored on file servers or in data lakes, which are both common for unstructured data. NoSQL databases store data that has no need for relationships. A better term might be Not Only SQL. NoSQL databases were created at a time when the rapid ingestion of data from websites and online games could no longer be handled by relational database systems effectively. For example  think about the times you have started to order something and then decided to wait until later. That abandoned data in the shopping cart has to be dealt with. In a relational database, there could be dozens of records across numerous tables that would have to be deleted. But with NoSQL databases, there is a single record for your entire shopping cart. When you abandon it, only that one record needs to be removed. This is the superpower of NoSQL databases.
+
+When a customer first adds a product to the shopping cart, it is stored in a NoSQL database. Once the customer begins the checkout process, the data from the NoSQL database can be passed to a relational database for permanent storage. With data safely stored in the relational database, the customer completes their order, and the record in the NoSQL database can be deleted. This partnership between databases types is one way that massive ecommerce sites can meet the needs of thousands of customers every minute. In a NoSQL database, all of the information for each product, including the associated supplier, would be stored in a single item within the database table,so  we will have redundant data.
+
+NoSQL databases are built to store semistructured and unstructured data in a way that provides for rapid collection and retrieval. There are several broad categories of NoSQL databases, like document stores, which store semistructured data in the form of files. These files range in form but can include JSON and XML. You can navigate the files using many languages, including Python and Node.js. Semistructured files contain data stored as a series of elements. Each element or item is an instance of a person, place, thing, or event. For instance, the document store may hold a series of log files from a set of servers. Every server is a little different and can generate log files specific to the way it is configured. There is no need for every server’s log files to contain the same attributes. The greatest strength of document stores is their flexibility. Users do not need to plan for a specific type of data when the document store is created, and they are easy to scale because of the lack of strict schemas.
+
+Document stores sacrifice ACID(atomicity, consistency, isolation, durability) compliance to gain this flexibility. Remember that ACID compliance is how we can guarantee the quality of the data within a relational database.
+
+Key-value databases, like dynamo db, are another type of NoSQL database. They store semistructured data in the form of key-value pairs. Logically, data is stored in a single table. This table contains items, and each item contains one or more attributes. Each item must contain a unique identifier or primary key.
+An important distinction to make between key-value tables and relational tables is that key-value tables are schemaless. This means that you do not have to specify what each attribute is before you use it. You also have the advantage of creating nested attributes. These are attributes that have their own attributes. For instance, you could have an Address attribute with Street, City, State, and Postal Code attributes nested inside. A relational database would likely move this nested information into a different table.
+
+### Document stores
+Document stores are a type of non-relational database that store semistructured and unstructured data in the form of files. These files range in form but include JSON, BSON, and XML. The files can be navigated using numerous languages including Python and Node.js.
+
+Logically, files contain data stored as a series of elements. Each element is an instance of a person, place, thing, or event. For instance, the document store may hold a series of log files from a set of servers. These log files can each contain the specifics for that system without concern for what the log files in other systems contain.
+
+- Strengths:
+  - Flexibility
+  - No need to plan for a specific type of data when creating one
+  - Easy to scale
+- Weaknesses:
+  - Sacrifice ACID compliance for flexibility
+  - Cannot query across files
+
+### Key-value stores
+Key-value databases are a type of non-relational database that store unstructured data in the form of key-value pairs.
+
+Logically, data is stored in a single table. Within the table, the values are associated with a specific key. The values are stored in the form of blob objects and do not require a predefined schema. The values can be of nearly any type.
+
+- Strengths: 
+  - Very flexible
+  - Able to handle a wide variety of data types
+  - Keys are linked directly to their values with no need for indexing or complex join operations
+  - Content of a key can easily be copied to other systems without reprogramming the data
+- Weaknesses: 
+ - Impossible to query values because they are stored as a single blob
+ - Updating or editing the content of a value is quite difficult
+ - Not all objects are easily modeled as key-value pairs
+
+### Schema changes in a relational database vs non relational database
+
+#### Schema changes in a relational database
+The needs of the business have changed. You need to add a new column to track each product's rating. Not all products have a rating yet, so you need to allow the column to accept NULL values.
+
+To add a new column to the table, you must:
+- Execute a SQL command to add the column.
+- The table now contains an empty column.
+- Populate the new column with a value for each existing record.
+
+![image](https://user-images.githubusercontent.com/52529498/141931571-e27a5712-e36f-473a-ae66-979374e0d731.png)
+
+#### Schema changes in a non-relational database
+When the same requirement is placed on data in a non-relational database, the remedy is quite different. You simply add the data for that record.
+With a non-relational database, each record can have its own set of attributes. This flexibility is one of the greatest benefits of non-relational databases.
+
+![image](https://user-images.githubusercontent.com/52529498/141931722-c0c69fdc-5dc6-484c-b2df-5daedebfb6ba.png)
+
+
+
+
+
+
+
+
+
+

@@ -121,6 +121,30 @@ Once the analytics and processing has been completed, the results are sent to a 
 ### simple use case with Glue etl
 AWS Glue is a fully managed ETL service that categorizes, cleans, enriches, and moves your data reliably between various data stores. AWS Glue simplifies and automates difficult and time-consuming data discovery, conversion, mapping, and job-scheduling tasks. In other words, it simplifies data processing.
 
+## Processing big data streams
+There are many reasons to use streaming data solutions. In a batch processing system, processing is always asynchronous, and the collection system and processing system are often grouped together. With streaming solutions, the collection system (producer) and the processing system (consumer) are always separate. Streaming data uses what are called data producers. Each of these producers can write their data to the same endpoint, allowing multiple streams of data to be combined into a single stream for processing. Another huge advantage is the ability to preserve client ordering of data and the ability to perform parallel consumption of data. This allows multiple users to work simultaneously on the same data.
+
+
+## Variety
+relational, semi-Structured, unstrucutred, [see section](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/data.md)
+
+## Veracity
+High-quality data is a must-have for organizations that are now relying so heavily upon the insights the data provides. When you have data that is ungoverned, coming from numerous, dissimilar systems and cannot curate the data in meaningful ways, you know you have a veracity problem.
+
+Data veracity is the degree to which data is accurate, precise, and trusted. Data must be properly cleansed and curated, so that reports from that data are accurate. That’s the only way the business can make good decisions from their data.
+- **Curation** is the action or process of selecting, organizing, and looking after the items in a collection.
+- **Data integrity** is the maintenance and assurance of the accuracy and consistency of data over its entire lifecycle.
+- **Data veracity** is the degree to which data is accurate, precise, and trusted.
+
+## Value
+When you have massive amounts of data used to support a few golden insights, you may be missing the real value of your data. We are going to discuss what it takes to uncover the value in all your data and bring it out in the form of reports and dashboards.
+
+- **Information analytics** is the process of analyzing information to find the value contained within it. This term is often synonymous with data analytics. Businesses are making thousands of decisions with or without solid information to back them up. The hope, of course, is that there are solid facts that back up each decision. But the unfortunate reality is that decisions are often based upon assumptions. These assumptions may have a basis in reality, but they are still assumptions.<ul> What businesses need is a fast and efficient way to get meaningful information from all of the data they are gathering.</ul> It is a capital mistake to theorize before one has data. Insensibly, one begins to twist the facts to suit theories, instead of theories to suit facts
+- **Operational analytics**, Businesses have thousands of systems, applications, and customers that are constantly generating data. This is one of the fastest growing areas of data collection. Operational analytics is a form of analytics that is used specifically to retrieve, analyze, and report on data for IT operations. This data includes system logs, security logs, complex IT infrastructure events and processes, user transactions, and even security threats.
+
+
+
+
 
 
 

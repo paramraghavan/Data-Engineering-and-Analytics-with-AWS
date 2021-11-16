@@ -66,6 +66,8 @@ Kinesis Analytics is able to send processed results to Amazon Simple Storage Ser
 
 ![image](https://user-images.githubusercontent.com/52529498/141690191-f65a22aa-1a4f-4122-9a75-e9efbe077274.png)
 
+ref: https://www.serverless.com/examples/kinesis-streams-fan-out-kinesis-analytics
+
 ## Realtime log analytics
 ![image](https://user-images.githubusercontent.com/52529498/141690448-2c2a159b-2f34-4070-9ca3-44eeba1a753e.png)
 

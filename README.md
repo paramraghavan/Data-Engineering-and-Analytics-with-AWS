@@ -1,11 +1,6 @@
 # Data-Engineering-and-Analytics-with-AWS
 This is based on my experience working with AWS, resources available in AWS - Data Analytics Fundamentals and my curious web searches.
 
-- [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
-- [Kinesis Streams](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/kinesis_streams/kinesisstreams.md)
-- [data and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/data.md)
-- [parquet and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/parquet.md)
-
 ## Architecting on AWS
 When architecting our system *Compute* and *Storage* should be separated. We should use
 - the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cses used csv as that was the consumers requirement.
@@ -49,6 +44,12 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 - Reporting tools like microstratergy, tableau can use the Redshift spectrum tablesand view for reporting 
 - D3js, pyflask and  redshift spectrum tables - accessed via redshift driver
 
+
+## In detail
+- [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
+- [Kinesis Streams](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/kinesis_streams/kinesisstreams.md)
+- [data and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/data.md)
+- [parquet and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/parquet.md)
 
 
 References:

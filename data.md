@@ -33,7 +33,7 @@ Key-value databases, like dynamo db, are another type of NoSQL database. They st
 An important distinction to make between key-value tables and relational tables is that key-value tables are schemaless. This means that you do not have to specify what each attribute is before you use it. You also have the advantage of creating nested attributes. These are attributes that have their own attributes. For instance, you could have an Address attribute with Street, City, State, and Postal Code attributes nested inside. A relational database would likely move this nested information into a different table.
 
 ### Document stores
-Document stores are a type of non-relational database that store semistructured and unstructured data in the form of files. These files range in form but include JSON, BSON, and XML. The files can be navigated using numerous languages including Python and Node.js.
+Document stores are a type of non-relational database that store semistructured and unstructured data in the form of files. These files range in form but include JSON, BSON, and XML. The files can be navigated using numerous languages including Python and Node.js. BSON - BSON is a serialization format encoding format for JSON mainly used for storing and accessing the documents, whereas JSON is a human-readable standard file format mainly used for transmission of data in the form of key-value attribute pairs
 
 Logically, files contain data stored as a series of elements. Each element is an instance of a person, place, thing, or event. For instance, the document store may hold a series of log files from a set of servers. These log files can each contain the specifics for that system without concern for what the log files in other systems contain.
 

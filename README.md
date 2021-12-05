@@ -45,7 +45,7 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 - D3js, pyflask and  redshift spectrum tables - accessed via redshift driver
 
 ## Data Governance with [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
-Once we decide  we are going to use S3 as a  central datastore aka datalake or a  single source of truth, we need a mechanism for producers and consumers to register their respective data, here we call each dataset.  All those who need to sousme from S3 have to regsiter as a consume of the data and the producer as  source of the data. The producer will publish the metadata for the data, volumne, veracity, source, variety, data registered date, end registered date, email of the team etc. The data governance should be fully automated with  daily proessing running some kind of automatic validation and flag out concerns via eamil to the respective teams.
+Once we decide  we are going to use S3 as a  central datastore aka datalake or a  single source of truth, we need a mechanism for producers and consumers to register their respective data, here we call each dataset.  All those who need to consume from S3 have to register as a consumer of the data and the producer as  source of the data. The producer will publish the metadata for the data, volumne, veracity, source, variety, data registered date, end registered date, email of the team etc. The data governance should be fully automated with  daily proessing running some kind of automatic validation and flag out concerns via email to the respective teams.
 
 ## In detail
 - [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)

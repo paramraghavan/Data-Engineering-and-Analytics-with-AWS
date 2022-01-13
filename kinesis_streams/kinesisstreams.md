@@ -2,6 +2,8 @@
 ## Kinesis Streams is used to :
 ![image](https://user-images.githubusercontent.com/52529498/140963179-d2cbd175-ef20-45ba-b558-a533abc3d5e6.png)
 
+Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information.
+
 ## Stream processing
 means processing data in a stream—in other words, processing data that’s generated continuously, in small datasets (measured in kilobytes). You would use stream processing when you need real-time feedback or continuous insights. This kind of processing is performed on datasets like IoT sensor data, e-commerce purchases, in-game player activity, clickstreams, or information from social networks.
 Many organizations use both types of processing, stream and batch, on the exact same dataset. Stream processing is used to get initial insights and real-time feedback, while batch processing is used to get deep insights from complex analytics. For example, credit card transactions. Have you ever received in text just moments after swiping your card? This is a streaming data fraud prevention alert. This is a stream process that happens in near-real time.
@@ -53,8 +55,6 @@ Each record can be as large as 1000Kb
 
 
 # Kinesis Analytics
-Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information.
-
 Amazon Kinesis Analytics processes and analyzes streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Kinesis Analytics enables you to query streaming data or build entire streaming applications with SQL. 
 
 The results can be used to create insights and visualizations so that you can respond to your business and customer needs promptly. Notifications and alerts can also be configured. This service supports ingesting data from Amazon Kinesis Streams and Amazon Kinesis Firehose streaming sources.

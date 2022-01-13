@@ -1,8 +1,4 @@
 # Kinesis streams
-## Kinesis Streams is used to :
-![image](https://user-images.githubusercontent.com/52529498/140963179-d2cbd175-ef20-45ba-b558-a533abc3d5e6.png)
-
-Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information.
 
 ## Stream processing
 means processing data in a stream—in other words, processing data that’s generated continuously, in small datasets (measured in kilobytes). You would use stream processing when you need real-time feedback or continuous insights. This kind of processing is performed on datasets like IoT sensor data, e-commerce purchases, in-game player activity, clickstreams, or information from social networks.
@@ -10,6 +6,10 @@ Many organizations use both types of processing, stream and batch, on the exact 
 
 Now another process going on regularly using the same data would be the credit card company processing the days customer fraud prevention alert trends. Same data, two completely different business being met, two different velocities.
 
+## Kinesis Streams is used to :
+![image](https://user-images.githubusercontent.com/52529498/140963179-d2cbd175-ef20-45ba-b558-a533abc3d5e6.png)
+
+Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information.
 
 ### Kinesis stream reads from : 
 ![image](https://user-images.githubusercontent.com/52529498/140964922-fb652512-8700-437c-9d69-27cd7b461a45.png)

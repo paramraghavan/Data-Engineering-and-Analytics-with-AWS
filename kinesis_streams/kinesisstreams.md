@@ -53,7 +53,7 @@ Each record can be as large as 1000Kb
 
 
 # Kinesis Analytics
-Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information
+Amazon Kinesis is Amazon's real‑time data streaming service. Amazon Kinesis enables you to collect, process, and analyze streaming data in real time instead of having to wait until all your data is collected before the processing can begin. With Kinesis, you can ingest real‑time data such as application logs, web clickstreams, IoT telemetry data, and more right into your database, data lakes, and data warehouses, or build your own real‑time applications using this data to gain insight into your information.
 
 Amazon Kinesis Analytics processes and analyzes streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Kinesis Analytics enables you to query streaming data or build entire streaming applications with SQL. 
 

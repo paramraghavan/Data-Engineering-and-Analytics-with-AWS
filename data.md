@@ -28,6 +28,7 @@ When a customer first adds a product to the shopping cart, it is stored in a NoS
 NoSQL databases are built to store semistructured and unstructured data in a way that provides for rapid collection and retrieval. There are several broad categories of NoSQL databases, like document stores, which store semistructured data in the form of files. These files range in form but can include JSON and XML. You can navigate the files using many languages, including Python and Node.js. Semistructured files contain data stored as a series of elements. Each element or item is an instance of a person, place, thing, or event. For instance, the document store may hold a series of log files from a set of servers. Every server is a little different and can generate log files specific to the way it is configured. There is no need for every server’s log files to contain the same attributes. The greatest strength of document stores is their flexibility. Users do not need to plan for a specific type of data when the document store is created, and they are easy to scale because of the lack of strict schemas.
 
 Document stores sacrifice ACID(atomicity, consistency, isolation, durability) compliance to gain this flexibility. Remember that ACID compliance is how we can guarantee the quality of the data within a relational database.
+
 ![image](https://user-images.githubusercontent.com/52529498/149370474-e371893a-c096-40b2-96a8-214230af7bac.png)
 ref: https://www.bmc.com/blogs/acid-atomic-consistent-isolated-durable/
 

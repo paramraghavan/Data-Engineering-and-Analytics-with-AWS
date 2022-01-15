@@ -10,3 +10,11 @@ Longitudinal patient dataset (data that track the same patients over the course 
 - https://www.healthdatamanagement.com/articles/why-longitudinal-data-is-crucial-to-making-better-care-decisions
 
 ## Timeseries data
+
+
+
+## Slowly Changing dimensions
+
+
+## Facts and Dimensions
+

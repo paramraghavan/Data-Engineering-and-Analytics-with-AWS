@@ -33,7 +33,26 @@ Time series analysis can be useful to see how a given asset, security, or econom
 
 
 ## Slowly Changing dimensions
-
+Slowly Changing Dimensions (SCD) - dimensions that change slowly over time, rather than changing on regular schedule, time-base. In Data Warehouse there is a need to track changes in dimension attributes in order to report historical data. In other words, implementing one of the SCD types should enable users assigning proper dimension's attribute value for given date. Example of such dimensions could be: customer, geography, employee. [SCD in detail](https://www.datawarehouse4u.info/SCD-Slowly-Changing-Dimensions.html)
 
 ## Facts and Dimensions
+In Data Warehouse Modeling, a star schema and a snowflake schema consists of Fact and Dimension tables. Fact and Dimension tables are the main two tables that are used when designing a data warehouse. The fact table contains measures of columns and surrogate keys that link to the dimension tables. Measure columns are the values that you store in order to measure the business fact.
 
+- Fact Table:
+It contains all the primary keys of the dimension and associated facts or measures(is a property on which calculations can be made) like quantity sold, amount sold and average sales. A fact table is a primary table in a dimensional model.
+
+- A Fact Table contains
+  - Measurements/facts
+  - Foreign key to dimension table
+
+- Dimension Tables:
+  - A dimension table contains dimensions of a fact.
+  - They are joined to fact table via a foreign key.
+  - Dimension tables are de-normalized tables.
+  - Dimension tables provides descriptive information for all the measurements recorded in fact table.
+  - Dimensions are relatively very small in size in  comparison to fact table.
+  - Commonly used dimensions are people, products, place and time.
+  - 
+![image](https://user-images.githubusercontent.com/52529498/149608358-abb01309-c389-4246-91aa-c46010ea9144.png)
+
+- Ref https://stackoverflow.com/questions/20036905/difference-between-fact-table-and-dimension-table/33750545

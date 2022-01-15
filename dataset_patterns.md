@@ -1,4 +1,4 @@
-# Data Patterns
+# Dataset Patterns
 
 Generally, data sets could be of 4 main grades:
 

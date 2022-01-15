@@ -3,7 +3,7 @@ This is based on my experience working with AWS, resources available in AWS - Da
 
 ## Architecting on AWS
 When architecting our system *Compute* and *Storage* should be separated. We should use
-- the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cses used csv as that was the consumers requirement or what the upstream producer delivers.
+- the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cases csv as that was the consumers requirement or what the upstream producer delivers.
 - The data should not be replicated but shared across team, such that the same data is used by marketing team for sql query and is used by data scientist to run their model
 - Also take into consideration the  5 Vs: **volume, velocity, variety, veracity, and value**. 
   - **Volume**, is the amount of data that a solution must handle. 

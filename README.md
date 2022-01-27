@@ -64,5 +64,6 @@ References:
 - https://explore.skillbuilder.aws/learn/signin - Data Analytics Fundamentals
 - [Build ETL pipeline to load data incrementally from Amazon S3 to redshidt using Glue](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/build-an-etl-service-pipeline-to-load-data-incrementally-from-amazon-s3-to-amazon-redshift-using-aws-glue.html)
 - https://www.diagrameditor.com/
+- https://www.microsoft.com/en-us/p/drawio-diagrams/9mvvszk43qqw?activetab=pivot:overviewtab
 
 

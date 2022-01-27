@@ -38,6 +38,6 @@ Parquet has helped its users reduce storage requirements by at least one-third o
 The following table compares the savings as well as the speedup obtained by converting data into Parquet from CSV.
 ![image](https://user-images.githubusercontent.com/52529498/151384560-5c3def77-2578-4b48-896d-927bdb4d9c6d.png)
 
-- [Reference for above notes](https://databricks.com/glossary/what-is-parquet#:~:text=Parquet%20is%20an%20open%20source,like%20CSV%20or%20TSV%20files) 
+ref: https://databricks.com/glossary/what-is-parquet#:~:text=Parquet%20is%20an%20open%20source,like%20CSV%20or%20TSV%20files
 
  

@@ -66,4 +66,6 @@ References:
 - https://www.diagrameditor.com/
 - https://www.microsoft.com/en-us/p/drawio-diagrams/9mvvszk43qqw?activetab=pivot:overviewtab
 
+# Interesting Reads
+- https://eng.uber.com/
 

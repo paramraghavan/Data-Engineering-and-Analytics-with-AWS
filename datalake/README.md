@@ -21,7 +21,7 @@ may need to be presented in a useful state.
 
 **A single source of truth** - When we talk about truth in relation to data, we mean the trustworthiness of the data. Is it what it should be? Has it
 been altered? Can we validate the chain of custody? When creating a single source of truth, we’re creating a dataset, in this case the data lake, which can be used for
-all processing and analytics. The bonus is that we know it to be consistent and reliable. It’s trustworthy. Be careful not to let your data lake become a swamp. Enforce proper organization and structure for all data entering the lake.
+all processing and analytics. The bonus is that we know it to be consistent and reliable. It’s trustworthy. Be careful not to let your data lake become a swamp. Enforce proper organization and structure for all data entering the lake -  using smart data governance
 
 **Store any type of data, regardless of structure** - Be careful to ensure that data within the data lake is relevant and does not go unused. Train users on how to access the data, and set retention policies to ensure the data stays refreshed.
 

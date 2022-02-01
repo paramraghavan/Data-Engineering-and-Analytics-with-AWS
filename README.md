@@ -3,9 +3,14 @@ This is based on my experience working with AWS, resources available in AWS - Da
 
 ## Architecting on AWS
 When architecting our system *Compute* and *Storage* should be separated. We should use
-- the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cses used csv as that was the consumers requirement or what the upstream producer delivers.
+- the open data formats like apache parquet, Avro, ORC. etc. I have mostly use [parquet](https://github.com/paramraghavan/Data-Engineering-and-Analysis-with-AWS/blob/main/parquet.md), but in some cases csv as that was the consumers requirement or what the upstream producer delivers.
 - The data should not be replicated but shared across team, such that the same data is used by marketing team for sql query and is used by data scientist to run their model
-- Also take into consideration the  5 Vs: **volume, velocity, variety, veracity, and value**. **Volume**, is the amount of data that a solution must handle. **Velocity**, is the speed at which data enters and flows through your solution. Many businesses now use large volumes of real-time streaming data. Solutions must be able to rapidly ingest and rapidly process this data. **Variety**, ingesting data of many different types from many different sources can mean many different challenges to data analysis. Smart companies build solutions to work with structured, semistructured, and completely unstructured data types. **Veracity**, which refers to the trustworthiness of your data, trustworthiness means - you know the chain of custody for that data. That you can say with certainty that the data has not be altered falsely. Collecting data is easy—making sure it’s accurate and consistent? That's the hard part—that’s veracity. **Value**, is the bottom line, really. The whole point of this effort is getting value from data. That includes creating reports and dashboards that inform critical business decisions. It also includes highlighting areas for improving the business. And it includes making it easier to find and communicate critical details about business operations.
+- Also take into consideration the  5 Vs: **volume, velocity, variety, veracity, and value**. 
+  - **Volume**, is the amount of data that a solution must handle. 
+  - **Velocity**, is the speed at which data enters and flows through your solution. Many businesses now use large volumes of real-time streaming data. Solutions must be able to rapidly ingest and rapidly process this data. 
+  - **Variety**, ingesting data of many different types from many different sources can mean many different challenges to data analysis. Smart companies build solutions to work with structured, semistructured, and completely unstructured data types. 
+  - **Veracity**, which refers to the trustworthiness of your data, trustworthiness means - you know the chain of custody for that data. That you can say with certainty that the data has not be altered falsely. Collecting data is easy—making sure it’s accurate and consistent? That's the hard part—that’s veracity. 
+  - **Value**, is the bottom line, really. The whole point of this effort is getting value from data. That includes creating reports and dashboards that inform critical business decisions. It also includes highlighting areas for improving the business. And it includes making it easier to find and communicate critical details about business operations.
 - Data can be structured, semi-structed , unstructured
 
 ## Lifecycle of data
@@ -45,7 +50,7 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 - D3js, pyflask and  redshift spectrum tables - accessed via redshift driver
 
 ## Data Governance with [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
-Once we decide  we are going to use S3 as a  central datastore aka datalake or a  single source of truth, we need a mechanism for producers and consumers to register their respective data, here we call each dataset.  All those who need to consume from S3 have to register as a consumer of the data and the producer as  source of the data. The producer will publish the metadata for the data, volumne, veracity, source, variety, data registered date, end registered date, email of the team etc. The data governance should be fully automated with  daily proessing running some kind of automatic validation and flag out concerns via email to the respective teams.May be glue crawler can help you get started with a rudimentary metadata.
+Once we decide  we are going to use S3 as a  central datastore aka datalake or a  single source of truth, we need a mechanism for producers and consumers to register their respective data, here we call each dataset.  All those who need to consume from S3 have to register as a consumer of the data and the producer as  source of the data. The producer will publish the metadata for the data, volumne, veracity, source, variety, data registered date, end registered date, email of the team etc. The data governance should be fully automated with  daily proessing running some kind of automatic validation and flag out concerns via email to the respective teams. May be glue crawler can help you get started with a rudimentary metadata.
 
 # OLAP v s OLTP
 ![img.png](img.png)
@@ -60,5 +65,10 @@ Once we decide  we are going to use S3 as a  central datastore aka datalake or a
 References:
 - http://diagramo.com/editor/editor.php
 - https://explore.skillbuilder.aws/learn/signin - Data Analytics Fundamentals
+- [Build ETL pipeline to load data incrementally from Amazon S3 to redshidt using Glue](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/build-an-etl-service-pipeline-to-load-data-incrementally-from-amazon-s3-to-amazon-redshift-using-aws-glue.html)
+- https://www.diagrameditor.com/
+- https://www.microsoft.com/en-us/p/drawio-diagrams/9mvvszk43qqw?activetab=pivot:overviewtab
 
+# Interesting Reads
+- https://eng.uber.com/
 

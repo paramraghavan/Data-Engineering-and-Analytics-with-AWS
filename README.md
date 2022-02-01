@@ -34,7 +34,7 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 - S3, this is used for storage and data here should be not be replicated but should be shared across accounts.
 
 ## Analyze
-- Redshift/Resshift spectrum to read unstructured data in S3
+- Redshift/Redshift spectrum to read unstructured data in S3
 - Use Athena for sql analysis of data on S3
 - We can use the AWs Glue to create data catalog over the S3 files, which can be accesed via sql, for example we can use the spark sql serverless container to access glue mappings/data catalog to perform sql
 - Amazon EMR - running spark sql to access glue datalog on to of s3
@@ -46,6 +46,9 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 
 ## Data Governance with [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
 Once we decide  we are going to use S3 as a  central datastore aka datalake or a  single source of truth, we need a mechanism for producers and consumers to register their respective data, here we call each dataset.  All those who need to consume from S3 have to register as a consumer of the data and the producer as  source of the data. The producer will publish the metadata for the data, volumne, veracity, source, variety, data registered date, end registered date, email of the team etc. The data governance should be fully automated with  daily proessing running some kind of automatic validation and flag out concerns via email to the respective teams.May be glue crawler can help you get started with a rudimentary metadata.
+
+# OLAP v s OLTP
+![img.png](img.png)
 
 ## In detail
 - [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)

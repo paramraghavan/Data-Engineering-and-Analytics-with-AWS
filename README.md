@@ -58,8 +58,8 @@ Once we decide  we are going to use S3 as a  central datastore aka datalake or a
 ## In detail
 - [datalake](./datalake/README.md)
 - [Kinesis Streams](./kinesis_streams/README.md)
-- [data and more](./data.md)
-- [dataset and more](./dataset.md)
+- [data and more](./data_types.md)
+- [dataset and more](./dataset_types.md)
 - [parquet and more](./parquet.md)
 
 

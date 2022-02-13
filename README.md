@@ -56,10 +56,10 @@ Once we decide  we are going to use S3 as a  central datastore aka datalake or a
 ![img.png](img.png)
 
 ## In detail
-- [datalake](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/datalake/datalake.md)
-- [Kinesis Streams](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/kinesis_streams/kinesisstreams.md)
-- [data and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/data.md)
-- [parquet and more](https://github.com/paramraghavan/Data-Engineering-and-Analytics-with-AWS/blob/main/parquet.md)
+- [datalake](datalake/datalake.md)
+- [Kinesis Streams](kinesis_streams/kinesisstreams.md)
+- [data and more](data.md)
+- [parquet and more](parquet.md)
 
 
 References:

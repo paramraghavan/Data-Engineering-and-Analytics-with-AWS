@@ -33,7 +33,7 @@ When architecting our system *Compute* and *Storage* should be separated. We sho
 - AWS Kinesis Kinesis Analytics for IOT devices, data streams. Kinesis Analytics - continuously reads and process streaming data in real time, (You write application code in a language supported by Apache Flink) to process the incoming streaming data and produce output. Then, Kinesis Data Analytics writes the output to a configured destination, in our case S3
 - AWS Glue Crawler
 - AWS Snowball - used for one time bulk transfer from on premise to S3
-- Custom code  processing includes collecting, cleaning, transforming, and loading data into an analytic data store using for example Java or python code which moves data from on premise to S3
+- Custom code  processing includes collecting, cleaning, transforming, and loading data into an analytic data store using for example Java or python code which moves data from on premise to S3 or S3 to S3.
 
 ## Storage
 - S3, this is used for storage and data here should be not be replicated but should be shared across accounts.

@@ -56,7 +56,7 @@ Once we decide  we are going to use S3 as a  central datastore aka datalake or a
 ![img.png](img.png)
 
 ## In detail
-- [datalake](./datalake/datalake.md)
+- [datalake](./datalake/README.md)
 - [Kinesis Streams](kinesis_streams/kinesisstreams.md)
 - [data and more](data.md)
 - [parquet and more](parquet.md)

@@ -1,5 +1,5 @@
 # Data-Engineering-and-Analytics-with-AWS
-This is based on my experience working with AWS, resources available in AWS - Data Analytics Fundamentals and my curious web searches.
+This is based on my experience working with AWS, resources available in AWS and my curious web searches.
 
 ## Architecting on AWS
 When architecting our system *Compute* and *Storage* should be separated. We should use
